@@ -16,7 +16,7 @@ try:
     # .envファイルの内容を読み込見込む
     load_dotenv()
 
-    DEBUG_=os.environ['DEBUG']
+    DEBUG_=os.environ['DEBUG_']
 
     AWS_HOST_ZONE_ID=os.environ['AWS_HOST_ZONE_ID']
     AWS_RECORD_NAME=os.environ['AWS_RECORD_NAME']
