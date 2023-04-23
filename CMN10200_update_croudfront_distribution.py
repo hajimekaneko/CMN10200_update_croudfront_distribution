@@ -6,7 +6,7 @@ import os
 from dotenv import load_dotenv
 
 import sys
-sys.path.append('D:/User_Application/CMN00100_logging')
+sys.path.append('../CMN00100_logging')
 import CMN00100_logging as logging_
 
 logging_.setting("CMN10200")
